@@ -12,3 +12,21 @@ Xiaomi Mi Band App
 
 This unpacked included both patches to allow execution on Android 4.0.4 devices and without Bluetooth 4.0 
 (But remember if u dont have Bluetooth 4.0 the app will crash and there is nothing we can do)
+
+
+Build
+-----
+
+You need Android SDK and apktool (v2) to (re)build this project.
+
+> apktool b XiaomiMiBand
+
+this command will generate an unsigned apk-file, to sign it you can use jarsigner.
+
+Installation
+----
+
+Just open the apk on you android phone or run the following command:
+
+> adb install /path/to/apk/generated.apk
+
