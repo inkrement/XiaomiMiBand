@@ -1,3 +1,8 @@
+out/
+dist/
+gen/
+*.iml
+.idea/
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
